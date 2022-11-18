@@ -1,0 +1,154 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/inderpalsinghaulakh/Mobile/personalgithub/maui/acs_ui_library_net_maui/azure-core-binding/azure-core-binding.csproj": {}
+  },
+  "projects": {
+    "/Users/inderpalsinghaulakh/Mobile/personalgithub/maui/acs_ui_library_net_maui/azure-core-binding/azure-core-binding.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/inderpalsinghaulakh/Mobile/personalgithub/maui/acs_ui_library_net_maui/azure-core-binding/azure-core-binding.csproj",
+        "projectName": "azure-core-binding",
+        "projectPath": "/Users/inderpalsinghaulakh/Mobile/personalgithub/maui/acs_ui_library_net_maui/azure-core-binding/azure-core-binding.csproj",
+        "packagesPath": "/Users/inderpalsinghaulakh/.nuget/packages/",
+        "outputPath": "/Users/inderpalsinghaulakh/Mobile/personalgithub/maui/acs_ui_library_net_maui/azure-core-binding/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/inderpalsinghaulakh/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-android"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-android33.0": {
+            "targetAlias": "net7.0-android",
+            "projectReferences": {
+              "/Users/inderpalsinghaulakh/Mobile/personalgithub/maui/acs_ui_library_net_maui/azure-log-binding/azure-log-binding.csproj": {
+                "projectPath": "/Users/inderpalsinghaulakh/Mobile/personalgithub/maui/acs_ui_library_net_maui/azure-log-binding/azure-log-binding.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-android33.0": {
+          "targetAlias": "net7.0-android",
+          "dependencies": {
+            "Square.OkHttp3": {
+              "target": "Package",
+              "version": "[4.9.3.2, )"
+            },
+            "Square.Retrofit2": {
+              "target": "Package",
+              "version": "[2.9.0, )"
+            },
+            "Xamarin.Android.JakeWharton.ThreeTenAbp": {
+              "target": "Package",
+              "version": "[1.3.1, )"
+            },
+            "Xamarin.AndroidX.Annotation": {
+              "target": "Package",
+              "version": "[1.5.0.1, )"
+            },
+            "Xamarin.AndroidX.Lifecycle.Common": {
+              "target": "Package",
+              "version": "[2.5.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/inderpalsinghaulakh/Mobile/personalgithub/maui/acs_ui_library_net_maui/azure-log-binding/azure-log-binding.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/inderpalsinghaulakh/Mobile/personalgithub/maui/acs_ui_library_net_maui/azure-log-binding/azure-log-binding.csproj",
+        "projectName": "azure-log-binding",
+        "projectPath": "/Users/inderpalsinghaulakh/Mobile/personalgithub/maui/acs_ui_library_net_maui/azure-log-binding/azure-log-binding.csproj",
+        "packagesPath": "/Users/inderpalsinghaulakh/.nuget/packages/",
+        "outputPath": "/Users/inderpalsinghaulakh/Mobile/personalgithub/maui/acs_ui_library_net_maui/azure-log-binding/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/inderpalsinghaulakh/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-android"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-android33.0": {
+            "targetAlias": "net7.0-android",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-android33.0": {
+          "targetAlias": "net7.0-android",
+          "dependencies": {
+            "Slf4jApi": {
+              "target": "Package",
+              "version": "[1.7.30, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.Android": {
+              "privateAssets": "all"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

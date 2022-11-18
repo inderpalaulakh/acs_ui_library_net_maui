@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<api api-source="JavaTypeSystem">
+  <package name="com.azure.android.core.logging" jni-name="com/azure/android/core/logging">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="ClientLogger" static="false" visibility="public" jni-signature="Lcom/azure/android/core/logging/ClientLogger;">
+      <constructor deprecated="not deprecated" final="false" name="ClientLogger" jni-signature="(Ljava/lang/Class;)V" bridge="false" static="false" type="com.azure.android.core.logging.ClientLogger" synthetic="false" visibility="public">
+        <parameter name="clazz" type="java.lang.Class&lt;?&gt;" jni-type="Ljava/lang/Class&lt;*&gt;;" />
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="ClientLogger" jni-signature="(Ljava/lang/String;)V" bridge="false" static="false" type="com.azure.android.core.logging.ClientLogger" synthetic="false" visibility="public">
+        <parameter name="className" type="java.lang.String" jni-type="Ljava/lang/String;" />
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="canLogAtLevel" jni-signature="(Lcom/azure/android/core/logging/LogLevel;)Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="logLevel" type="com.azure.android.core.logging.LogLevel" jni-type="Lcom/azure/android/core/logging/LogLevel;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="error" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="message" type="java.lang.String" jni-type="Ljava/lang/String;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="error" jni-signature="(Ljava/lang/String;[Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="format" type="java.lang.String" jni-type="Ljava/lang/String;" />
+        <parameter name="args" type="java.lang.Object..." jni-type="[Ljava/lang/Object;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="info" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="message" type="java.lang.String" jni-type="Ljava/lang/String;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="info" jni-signature="(Ljava/lang/String;[Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="format" type="java.lang.String" jni-type="Ljava/lang/String;" />
+        <parameter name="args" type="java.lang.Object..." jni-type="[Ljava/lang/Object;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="logExceptionAsError" jni-signature="(Ljava/lang/RuntimeException;)Ljava/lang/RuntimeException;" bridge="false" native="false" return="java.lang.RuntimeException" jni-return="Ljava/lang/RuntimeException;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="runtimeException" type="java.lang.RuntimeException" jni-type="Ljava/lang/RuntimeException;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="logExceptionAsWarning" jni-signature="(Ljava/lang/RuntimeException;)Ljava/lang/RuntimeException;" bridge="false" native="false" return="java.lang.RuntimeException" jni-return="Ljava/lang/RuntimeException;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="runtimeException" type="java.lang.RuntimeException" jni-type="Ljava/lang/RuntimeException;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="logThrowableAsError" jni-signature="(Ljava/lang/Throwable;)Ljava/lang/Throwable;" bridge="false" native="false" return="T" jni-return="TT;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <typeParameters>
+          <typeParameter name="T" classBound="java.lang.Throwable" jni-classBound="Ljava/lang/Throwable;">
+            <genericConstraints>
+              <genericConstraint type="java.lang.Throwable" />
+            </genericConstraints>
+          </typeParameter>
+        </typeParameters>
+        <parameter name="throwable" type="T" jni-type="TT;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="logThrowableAsWarning" jni-signature="(Ljava/lang/Throwable;)Ljava/lang/Throwable;" bridge="false" native="false" return="T" jni-return="TT;" static="false" synchronized="false" synthetic="false" visibility="public">
+        <typeParameters>
+          <typeParameter name="T" classBound="java.lang.Throwable" jni-classBound="Ljava/lang/Throwable;">
+            <genericConstraints>
+              <genericConstraint type="java.lang.Throwable" />
+            </genericConstraints>
+          </typeParameter>
+        </typeParameters>
+        <parameter name="throwable" type="T" jni-type="TT;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="verbose" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="message" type="java.lang.String" jni-type="Ljava/lang/String;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="verbose" jni-signature="(Ljava/lang/String;[Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="format" type="java.lang.String" jni-type="Ljava/lang/String;" />
+        <parameter name="args" type="java.lang.Object..." jni-type="[Ljava/lang/Object;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="warning" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="message" type="java.lang.String" jni-type="Ljava/lang/String;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="warning" jni-signature="(Ljava/lang/String;[Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="format" type="java.lang.String" jni-type="Ljava/lang/String;" />
+        <parameter name="args" type="java.lang.Object..." jni-type="[Ljava/lang/Object;" />
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="ClientLogger.1" static="true" visibility="" jni-signature="Lcom/azure/android/core/logging/ClientLogger$1;" />
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.azure.android.core.logging.LogLevel&gt;" jni-extends="Ljava/lang/Enum;" final="true" name="LogLevel" static="false" visibility="public" jni-signature="Lcom/azure/android/core/logging/LogLevel;">
+      <method abstract="false" deprecated="not deprecated" final="false" name="fromString" jni-signature="(Ljava/lang/String;)Lcom/azure/android/core/logging/LogLevel;" bridge="false" native="false" return="com.azure.android.core.logging.LogLevel" jni-return="Lcom/azure/android/core/logging/LogLevel;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="logLevelVal" type="java.lang.String" jni-type="Ljava/lang/String;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getLogLevel" jni-signature="()I" bridge="false" native="false" return="int" jni-return="I" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" jni-signature="(Ljava/lang/String;)Lcom/azure/android/core/logging/LogLevel;" bridge="false" native="false" return="com.azure.android.core.logging.LogLevel" jni-return="Lcom/azure/android/core/logging/LogLevel;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="name" type="java.lang.String" jni-type="Ljava/lang/String;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" jni-signature="()[Lcom/azure/android/core/logging/LogLevel;" bridge="false" native="false" return="com.azure.android.core.logging.LogLevel[]" jni-return="[Lcom/azure/android/core/logging/LogLevel;" static="true" synchronized="false" synthetic="false" visibility="public" />
+      <field deprecated="not deprecated" final="true" name="ERROR" jni-signature="Lcom/azure/android/core/logging/LogLevel;" static="true" transient="false" type="com.azure.android.core.logging.LogLevel" type-generic-aware="com.azure.android.core.logging.LogLevel" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="INFORMATIONAL" jni-signature="Lcom/azure/android/core/logging/LogLevel;" static="true" transient="false" type="com.azure.android.core.logging.LogLevel" type-generic-aware="com.azure.android.core.logging.LogLevel" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="NOT_SET" jni-signature="Lcom/azure/android/core/logging/LogLevel;" static="true" transient="false" type="com.azure.android.core.logging.LogLevel" type-generic-aware="com.azure.android.core.logging.LogLevel" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="VERBOSE" jni-signature="Lcom/azure/android/core/logging/LogLevel;" static="true" transient="false" type="com.azure.android.core.logging.LogLevel" type-generic-aware="com.azure.android.core.logging.LogLevel" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="WARNING" jni-signature="Lcom/azure/android/core/logging/LogLevel;" static="true" transient="false" type="com.azure.android.core.logging.LogLevel" type-generic-aware="com.azure.android.core.logging.LogLevel" visibility="public" volatile="false" />
+    </class>
+  </package>
+  <package name="com.azure.android.core.logging.implementation" jni-name="com/azure/android/core/logging/implementation">
+    <class abstract="false" deprecated="not deprecated" extends="org.slf4j.helpers.MarkerIgnoringBase" extends-generic-aware="org.slf4j.helpers.MarkerIgnoringBase" jni-extends="Lorg/slf4j/helpers/MarkerIgnoringBase;" final="true" name="DefaultLogger" static="false" visibility="public" jni-signature="Lcom/azure/android/core/logging/implementation/DefaultLogger;">
+      <constructor deprecated="not deprecated" final="false" name="DefaultLogger" jni-signature="(Ljava/lang/Class;)V" bridge="false" static="false" type="com.azure.android.core.logging.implementation.DefaultLogger" synthetic="false" visibility="public">
+        <parameter name="clazz" type="java.lang.Class&lt;?&gt;" jni-type="Ljava/lang/Class&lt;*&gt;;" />
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="DefaultLogger" jni-signature="(Ljava/lang/String;)V" bridge="false" static="false" type="com.azure.android.core.logging.implementation.DefaultLogger" synthetic="false" visibility="public">
+        <parameter name="name" type="java.lang.String" jni-type="Ljava/lang/String;" />
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="debug" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="msg" type="java.lang.String" jni-type="Ljava/lang/String;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="debug" jni-signature="(Ljava/lang/String;Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="format" type="java.lang.String" jni-type="Ljava/lang/String;" />
+        <parameter name="arg1" type="java.lang.Object" jni-type="Ljava/lang/Object;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="debug" jni-signature="(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="format" type="java.lang.String" jni-type="Ljava/lang/String;" />
+        <parameter name="param1" type="java.lang.Object" jni-type="Ljava/lang/Object;" />
+        <parameter name="param2" type="java.lang.Object" jni-type="Ljava/lang/Object;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="debug" jni-signature="(Ljava/lang/String;[Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="format" type="java.lang.String" jni-type="Ljava/lang/String;" />
+        <parameter name="argArray" type="java.lang.Object[]" jni-type="[Ljava/lang/Object;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="debug" jni-signature="(Ljava/lang/String;Ljava/lang/Throwable;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="msg" type="java.lang.String" jni-type="Ljava/lang/String;" />
+        <parameter name="t" type="java.lang.Throwable" jni-type="Ljava/lang/Throwable;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="error" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="msg" type="java.lang.String" jni-type="Ljava/lang/String;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="error" jni-signature="(Ljava/lang/String;Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="format" type="java.lang.String" jni-type="Ljava/lang/String;" />
+        <parameter name="arg" type="java.lang.Object" jni-type="Ljava/lang/Object;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="error" jni-signature="(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="format" type="java.lang.String" jni-type="Ljava/lang/String;" />
+        <parameter name="arg1" type="java.lang.Object" jni-type="Ljava/lang/Object;" />
+        <parameter name="arg2" type="java.lang.Object" jni-type="Ljava/lang/Object;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="error" jni-signature="(Ljava/lang/String;[Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="format" type="java.lang.String" jni-type="Ljava/lang/String;" />
+        <parameter name="argArray" type="java.lang.Object[]" jni-type="[Ljava/lang/Object;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="error" jni-signature="(Ljava/lang/String;Ljava/lang/Throwable;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="msg" type="java.lang.String" jni-type="Ljava/lang/String;" />
+        <parameter name="t" type="java.lang.Throwable" jni-type="Ljava/lang/Throwable;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="info" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="msg" type="java.lang.String" jni-type="Ljava/lang/String;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="info" jni-signature="(Ljava/lang/String;Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="format" type="java.lang.String" jni-type="Ljava/lang/String;" />
+        <parameter name="arg" type="java.lang.Object" jni-type="Ljava/lang/Object;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="info" jni-signature="(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="format" type="java.lang.String" jni-type="Ljava/lang/String;" />
+        <parameter name="arg1" type="java.lang.Object" jni-type="Ljava/lang/Object;" />
+        <parameter name="arg2" type="java.lang.Object" jni-type="Ljava/lang/Object;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="info" jni-signature="(Ljava/lang/String;[Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="format" type="java.lang.String" jni-type="Ljava/lang/String;" />
+        <parameter name="argArray" type="java.lang.Object[]" jni-type="[Ljava/lang/Object;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="info" jni-signature="(Ljava/lang/String;Ljava/lang/Throwable;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="msg" type="java.lang.String" jni-type="Ljava/lang/String;" />
+        <parameter name="t" type="java.lang.Throwable" jni-type="Ljava/lang/Throwable;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isDebugEnabled" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="isErrorEnabled" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="isInfoEnabled" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="isTraceEnabled" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="isWarnEnabled" jni-signature="()Z" bridge="false" native="false" return="boolean" jni-return="Z" static="false" synchronized="false" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="trace" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="msg" type="java.lang.String" jni-type="Ljava/lang/String;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="trace" jni-signature="(Ljava/lang/String;Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="format" type="java.lang.String" jni-type="Ljava/lang/String;" />
+        <parameter name="param1" type="java.lang.Object" jni-type="Ljava/lang/Object;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="trace" jni-signature="(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="format" type="java.lang.String" jni-type="Ljava/lang/String;" />
+        <parameter name="param1" type="java.lang.Object" jni-type="Ljava/lang/Object;" />
+        <parameter name="param2" type="java.lang.Object" jni-type="Ljava/lang/Object;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="trace" jni-signature="(Ljava/lang/String;[Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="format" type="java.lang.String" jni-type="Ljava/lang/String;" />
+        <parameter name="argArray" type="java.lang.Object[]" jni-type="[Ljava/lang/Object;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="trace" jni-signature="(Ljava/lang/String;Ljava/lang/Throwable;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="msg" type="java.lang.String" jni-type="Ljava/lang/String;" />
+        <parameter name="t" type="java.lang.Throwable" jni-type="Ljava/lang/Throwable;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="warn" jni-signature="(Ljava/lang/String;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="msg" type="java.lang.String" jni-type="Ljava/lang/String;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="warn" jni-signature="(Ljava/lang/String;Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="format" type="java.lang.String" jni-type="Ljava/lang/String;" />
+        <parameter name="arg" type="java.lang.Object" jni-type="Ljava/lang/Object;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="warn" jni-signature="(Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="format" type="java.lang.String" jni-type="Ljava/lang/String;" />
+        <parameter name="arg1" type="java.lang.Object" jni-type="Ljava/lang/Object;" />
+        <parameter name="arg2" type="java.lang.Object" jni-type="Ljava/lang/Object;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="warn" jni-signature="(Ljava/lang/String;[Ljava/lang/Object;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="format" type="java.lang.String" jni-type="Ljava/lang/String;" />
+        <parameter name="argArray" type="java.lang.Object[]" jni-type="[Ljava/lang/Object;" />
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="warn" jni-signature="(Ljava/lang/String;Ljava/lang/Throwable;)V" bridge="false" native="false" return="void" jni-return="V" static="false" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="msg" type="java.lang.String" jni-type="Ljava/lang/String;" />
+        <parameter name="t" type="java.lang.Throwable" jni-type="Ljava/lang/Throwable;" />
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="false" name="LogUtils" static="false" visibility="public" jni-signature="Lcom/azure/android/core/logging/implementation/LogUtils;">
+      <constructor deprecated="not deprecated" final="false" name="LogUtils" jni-signature="()V" bridge="false" static="false" type="com.azure.android.core.logging.implementation.LogUtils" synthetic="false" visibility="public" />
+      <method abstract="false" deprecated="not deprecated" final="false" name="ensureValidLoggerName" jni-signature="(Ljava/lang/String;)Ljava/lang/String;" bridge="false" native="false" return="java.lang.String" jni-return="Ljava/lang/String;" static="true" synchronized="false" synthetic="false" visibility="public">
+        <parameter name="name" type="java.lang.String" jni-type="Ljava/lang/String;" />
+      </method>
+    </class>
+  </package>
+  <package name="com.azure.core.logging" jni-name="com/azure/core/logging">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" jni-extends="Ljava/lang/Object;" final="true" name="BuildConfig" static="false" visibility="public" jni-signature="Lcom/azure/core/logging/BuildConfig;">
+      <constructor deprecated="not deprecated" final="false" name="BuildConfig" jni-signature="()V" bridge="false" static="false" type="com.azure.core.logging.BuildConfig" synthetic="false" visibility="public" />
+      <field deprecated="not deprecated" final="true" name="BUILD_TYPE" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;release&quot;" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="DEBUG" jni-signature="Z" static="true" transient="false" type="boolean" type-generic-aware="boolean" value="false" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="LIBRARY_PACKAGE_NAME" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.azure.core.logging&quot;" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="VERSION_CODE" jni-signature="I" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false" />
+      <field deprecated="not deprecated" final="true" name="VERSION_NAME" jni-signature="Ljava/lang/String;" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;1.0.0-beta.9&quot;" visibility="public" volatile="false" />
+    </class>
+  </package>
+</api>

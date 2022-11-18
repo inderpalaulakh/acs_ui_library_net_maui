@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "i78ZGbAk+2YhGSutFEhBGt7SMSe3GYKE3CVscBhAwsT2xRfVUY/3OfCPQvV9X1Si+eyOZ6+yE0Q/KqmP3svnsQ==",
+  "success": true,
+  "projectFilePath": "/Users/inderpalsinghaulakh/Mobile/personalgithub/maui/acs_ui_library_net_maui/azure_log_binding/azure_log_binding.csproj",
+  "expectedPackageFiles": [
+    "/Users/inderpalsinghaulakh/.nuget/packages/slf4japi/1.7.30/slf4japi.1.7.30.nupkg.sha512"
+  ],
+  "logs": []
+}
