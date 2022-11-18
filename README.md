@@ -8,6 +8,7 @@ To setup Azure Communication Services, follow instructions at [QuickStart](https
 ### Getting Started
 
 1) Open `acs_ui_library_net_maui/acs_ui_library_demo` in `Visual Studio 2022`
+2) Open `MainPage.xaml.cs` and enter below information in  `OnStartCall`
 
 ```C#
 private void OnStartCall(object sender, EventArgs e)
@@ -21,6 +22,4 @@ private void OnStartCall(object sender, EventArgs e)
         composite.joinCall(name, acsToken, callID, isTeamsCall);
     }
 ```
-
-2) Open `MainPage.xaml.cs` and enter call details in  `OnStartCall`
 3) Launch App and Press `Start ACS Call` 
