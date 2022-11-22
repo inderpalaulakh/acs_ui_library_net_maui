@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net7.0-android</TargetFramework>
     <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
@@ -31,6 +31,6 @@
     <AndroidLibrary Include="Jars\azure-core-1.0.0-beta.9.aar" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\azure-log-binding\azure-log-binding.csproj" />
+    <ProjectReference Include="..\azure_log_binding\azure_log_binding.csproj" />
   </ItemGroup>
 </Project>
